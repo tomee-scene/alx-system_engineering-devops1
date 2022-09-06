@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -f users,directories /etc/passwd | sort
+cut -d":" -f 1,6 /etc/passwd | sort
